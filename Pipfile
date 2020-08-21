@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+coverage = "*"
+Sphinx = "*"
+autopep8 = "*"
+
+[packages]
+awscli = "*"
+pyarrow = "*"
+boto3 = "*"
+s3fs = "*"
+ipython = "*"
+jupyter = "*"
+jupyterlab = "*"
+nbconvert = "*"
+ansible = "<2.8"
+openshift = "*"
+pyspark = "==2.4.5"
+kubernetes = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.6"
